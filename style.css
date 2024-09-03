@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.cabeza{
+    background-color: rgb(17, 80, 50);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    border-radius: 100px;
+    
+}
+.oreja1{
+    background-color: rgb(17, 80, 50);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 230px;
+    border-radius: 100px;
+}
+.oreja2{
+    background-color: rgb(17, 80, 50);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 470px;
+    border-radius: 100px;
+}
+.panza{
+    background-color: rgb(17, 80, 50);
+    width: 280px;
+    height: 280px;
+    position: relative;
+    top: 180px;
+    left: 260px;
+    border-radius: 1200px;
+
+}
+.hombligo{
+    background-color: rgb(17, 80, 50);
+    width: 50px;
+    height: 140px;
+    position: absolute;
+    margin: 4px;
+    top: 50px;
+    border: 10px;
+    left: 105px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border-style: solid;
+}
+.hombligo1{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 140px;
+    position: absolute;
+    top: 423px;
+    left: 362px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border-style: solid;
+    margin: 20px;
+    shape-outside: ellipse(10% 200%);
+    clip-path: ellipse(30% 50%);
+}
+.ojo1{
+    background-color: rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-color: rgb(194, 22, 22);
+    border: 4px;
+    border-radius: 100px;
+    border-style: solid;
+}
+.ojo2{
+    background-color: rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    left: 125px;
+    border-color: black;
+    border: 4px;
+    border-radius: 100px;
+    border-style: solid;
+}
+.boca{
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    height: 17px;
+    position: absolute;
+    top: 120px;
+    left: 61px;
+    border-radius: 25px;
+    border: 3px;
+    border-style: solid;
+}
+.nariz{
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 90px;
+    left: 94px;
+    border-radius: 20px;
+}
+.brazo1{
+    background-color: rgb(17, 80, 50);
+    width: 170px;
+    height: 60px;
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: 130px;
+    border-radius: 200px;
+    margin: 20px;
+    shape-outside: ellipse(10% 200%);
+    clip-path: ellipse(30% 50%);
+}
+.brazo2{
+    background-color: rgb(17, 80, 50);
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    top: 400px;
+    left: 460px;
+    border-radius: 1000px;
+    margin: 20px;
+    shape-outside: ellipse(10% 200%);
+    clip-path: ellipse(30% 50%);
+}
+.pie1{
+    background-color: rgb(17, 80, 50);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 580px;
+    left: 210px;
+    border-radius: 1000px;
+}
+.pie2{
+    background-color: rgb(17, 80, 50);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 580px;
+    left: 490px;
+    border-radius: 1000px;
+}
